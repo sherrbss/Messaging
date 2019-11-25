@@ -1,3 +1,11 @@
+# Running:
+
+```Temporary accounts:
+  username: admin   password: admin
+  username: admin1  password: admin
+  username: admin2  password: admin
+```
+
 Running Backend:
 
 ```json
