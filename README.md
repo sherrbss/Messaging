@@ -6,6 +6,17 @@
   username: admin2  password: admin
 ```
 
+Initial Setup:
+```json
+pip3 install -r requirements.txt
+pip3 install django-allauth
+pip3 install channels
+pip3 install django-rest-auth
+pip3 install channels_redis
+pip3 install "whitenoise <4"
+pip3 install service_identity
+```
+
 Running Frontend:
 
 ```json
@@ -21,12 +32,5 @@ redis-server
 Running Backend:
 
 ```json
-pip3 install -r requirements.txt
-pip3 install django-allauth
-pip3 install channels
-pip3 install django-rest-auth
-pip3 install channels_redis
-pip3 install whitenoise <4
-pip3 install service_identity
 python manage.py runserver
 ```
