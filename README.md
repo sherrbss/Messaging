@@ -6,7 +6,7 @@
   username: admin2  password: admin
 ```
 
-Initial Setup:
+Initial Setup (use pip or pip3):
 ```json
 pip3 install -r requirements.txt
 pip3 install django-allauth
@@ -29,7 +29,7 @@ Running Serverside:
 redis-server
 ```
 
-Running Backend:
+Running Backend (use python or python3):
 
 ```json
 python manage.py runserver
